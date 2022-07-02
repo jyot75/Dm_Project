@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku-King</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <script src="javascript/index.js"></script>
+</head>
+
+<body>
+
+    <div class="n_bar">
+        <h1>Sudoku-King</h1>
+
+        <table class="t1">
+            <tr>
+                <td><a href="#lllll1">Sudoku-Solver</a></td>
+                <td><a href="#lllll2">How it works ?</a></td>
+                <td><a href="#lllll3">About us</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <a id="lllll1"></a>
+
+    <div class="SudokuSolve">
+        <div class="qSu">
+            <div class="horiz"></div>
+            <div class="vert"></div>
+            <input id="1" type="number" maxlength="1" max="9" min="1">
+            <input id="2" type="number" maxlength="1" max="9" min="1">
+            <input id="3" type="number" maxlength="1" max="9" min="1"><div class="vert"></div>
+            <input id="4" type="number" maxlength="1" max="9" min="1">
+            <input id="5" type="number" maxlength="1" max="9" min="1">
+            <input id="6" type="number" maxlength="1" max="9" min="1"><div class="vert"></div>
+            <input id="7" type="number" maxlength="1" max="9" min="1">
+            <input id="8" type="number" maxlength="1" max="9" min="1">
+            <input id="9" type="number" maxlength="1" max="9" min="1"><div class="vert"></div>
+            <br>
+            <input id="10" type="number" maxlength="1" max="9" min="1">
+            <input id="11" type="number" maxlength="1" max="9" min="1">
+            <input id="12" type="number" maxlength="1" max="9" min="1">
+            <input id="13" type="number" maxlength="1" max="9" min="1">
+            <input id="14" type="number" maxlength="1" max="9" min="1">
+            <input id="15" type="number" maxlength="1" max="9" min="1">
+            <input id="16" type="number" maxlength="1" max="9" min="1">
+            <input id="17" type="number" maxlength="1" max="9" min="1">
+            <input id="18" type="number" maxlength="1" max="9" min="1">
+            <br>
+            <input id="19" type="number" maxlength="1" max="9" min="1">
+            <input id="20" type="number" maxlength="1" max="9" min="1">
+            <input id="21" type="number" maxlength="1" max="9" min="1">
+            <input id="22" type="number" maxlength="1" max="9" min="1">
+            <input id="23" type="number" maxlength="1" max="9" min="1">
+            <input id="24" type="number" maxlength="1" max="9" min="1">
+            <input id="25" type="number" maxlength="1" max="9" min="1">
+            <input id="26" type="number" maxlength="1" max="9" min="1">
+            <input id="27" type="number" maxlength="1" max="9" min="1">
+            <br>
+            <div class="horiz"></div>
+            <input id="28" type="number" maxlength="1" max="9" min="1">
+            <input id="29" type="number" maxlength="1" max="9" min="1">
+            <input id="30" type="number" maxlength="1" max="9" min="1">
+            <input id="31" type="number" maxlength="1" max="9" min="1">
+            <input id="32" type="number" maxlength="1" max="9" min="1">
+            <input id="33" type="number" maxlength="1" max="9" min="1">
+            <input id="34" type="number" maxlength="1" max="9" min="1">
+            <input id="35" type="number" maxlength="1" max="9" min="1">
+            <input id="36" type="number" maxlength="1" max="9" min="1">
+            <br>
+            <input id="37" type="number" maxlength="1" max="9" min="1">
+            <input id="38" type="number" maxlength="1" max="9" min="1">
+            <input id="39" type="number" maxlength="1" max="9" min="1">
+            <input id="40" type="number" maxlength="1" max="9" min="1">
+            <input id="41" type="number" maxlength="1" max="9" min="1">
+            <input id="42" type="number" maxlength="1" max="9" min="1">
+            <input id="43" type="number" maxlength="1" max="9" min="1">
+            <input id="44" type="number" maxlength="1" max="9" min="1">
+            <input id="45" type="number" maxlength="1" max="9" min="1">
+            <br>
+            <input id="46" type="number" maxlength="1" max="9" min="1">
+            <input id="47" type="number" maxlength="1" max="9" min="1">
+            <input id="48" type="number" maxlength="1" max="9" min="1">
+            <input id="49" type="number" maxlength="1" max="9" min="1">
+            <input id="50" type="number" maxlength="1" max="9" min="1">
+            <input id="51" type="number" maxlength="1" max="9" min="1">
+            <input id="52" type="number" maxlength="1" max="9" min="1">
+            <input id="53" type="number" maxlength="1" max="9" min="1">
+            <input id="54" type="number" maxlength="1" max="9" min="1">
+            <br>
+            <div class="horiz"></div>
+            <input id="55" type="number" maxlength="1" max="9" min="1">
+            <input id="56" type="number" maxlength="1" max="9" min="1">
+            <input id="57" type="number" maxlength="1" max="9" min="1">
+            <input id="58" type="number" maxlength="1" max="9" min="1">
+            <input id="59" type="number" maxlength="1" max="9" min="1">
+            <input id="60" type="number" maxlength="1" max="9" min="1">
+            <input id="61" type="number" maxlength="1" max="9" min="1">
+            <input id="62" type="number" maxlength="1" max="9" min="1">
+            <input id="63" type="number" maxlength="1" max="9" min="1">
+            <br>
+            <input id="64" type="number" maxlength="1" max="9" min="1">
+            <input id="65" type="number" maxlength="1" max="9" min="1">
+            <input id="66" type="number" maxlength="1" max="9" min="1">
+            <input id="67" type="number" maxlength="1" max="9" min="1">
+            <input id="68" type="number" maxlength="1" max="9" min="1">
+            <input id="69" type="number" maxlength="1" max="9" min="1">
+            <input id="70" type="number" maxlength="1" max="9" min="1">
+            <input id="71" type="number" maxlength="1" max="9" min="1">
+            <input id="72" type="number" maxlength="1" max="9" min="1">
+            <br>
+            <input id="73" type="number" maxlength="1" max="9" min="1">
+            <input id="74" type="number" maxlength="1" max="9" min="1">
+            <input id="75" type="number" maxlength="1" max="9" min="1">
+            <input id="76" type="number" maxlength="1" max="9" min="1">
+            <input id="77" type="number" maxlength="1" max="9" min="1">
+            <input id="78" type="number" maxlength="1" max="9" min="1">
+            <input id="79" type="number" maxlength="1" max="9" min="1">
+            <input id="80" type="number" maxlength="1" max="9" min="1">
+            <input id="81" type="number" maxlength="1" max="9" min="1">
+            <br>
+            <div class="horiz"></div>
+
+        </div>
+
+            <div class="answer_board">
+                <div class="a_horiz"></div>
+                <div class="a_vert"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div><div class="a_vert"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div><div class="a_vert"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div><div class="a_vert"></div><br>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div><br>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div><br><div class="a_horiz"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div><br>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div><br>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div><br><div class="a_horiz"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div><br>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div><br>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div>
+                <div class="ans_div"></div><br>
+                <div class="a_horiz"></div>
+            </div>
+
+            <button onclick="initiate()" class="btn">Solve</button>
+
+                <div class="vaahiyat">
+                <p id="row 1"></p>
+                <p id="row 2"></p>      
+                <p id="row 3"></p>
+                <p id="row 4"></p>  
+                <p id="row 5"></p>
+                <p id="row 6"></p>  
+                <p id="row 7"></p>
+                <p id="row 8"></p>  
+                <p id="row 9"></p>       
+                </div>
+
+        <script>
+            const placeHolder = "  ";
+            if(iiii==10)
+            {
+            for (var i = 1; i <= 9; i++){
+                document.getElementById("row " + String(i)).innerHTML = placeHolder +  "\xa0\xa0\xa0\xa0\xa0\xa0" + placeHolder + "\xa0\xa0\xa0\xa0\xa0\xa0" + placeHolder + "\xa0\xa0\xa0\xa0\xa0\xa0" + placeHolder + "\xa0\xa0\xa0\xa0\xa0\xa0" + placeHolder + "\xa0\xa0\xa0\xa0\xa0\xa0" + placeHolder + "\xa0\xa0\xa0\xa0\xa0\xa0" +  placeHolder + "\xa0\xa0\xa0\xa0\xa0\xa0" +  placeHolder + "\xa0\xa0\xa0\xa0\xa0\xa0" + placeHolder
+            }
+            }
+
+        </script>
+
+        <div><a id="lllll2"></a></div>
+    </div>
+
+
+    <div class="How_it">
+
+        <h2>How it works ?</h2>
+
+        <div class="w1">
+            <h3>What is graph ?</h3>
+            <p>Graph is a set of vertices(or nodes) and a set of edges which connects a pair of nodes.
+                In mathematics, graph theory is the study of graphs, which are mathematical structures used to model pairwise relations between objects. A graph in this context is made up of vertices (also called nodes or points) which are connected by edges (also called links or lines).</p>
+            <img class="cccccc" src="images/IMG_1.jpg" alt="">
+
+        </div>
+        <hr>
+
+        <div class="w2">
+            <h3>What is graph coloring ?</h3>
+
+            <p>Graph coloring is the assignment of different colors ( or labels ) to the vertices of a graph, such that no 2 adjacent (connected) vertices have the same color.</p>
+
+            <img class="cccccc" src="images/IMG_2-removebg-preview.jpg" alt=""><br>
+
+            <!-- <p>In G- Graph Coloring Problem, we have to find if a graph can be colored with a minimum of 'G' colors.This 'G' is also known as the Chromatic Number of a Graph, and is denoted as X(G).</p><br> -->
+
+        </div>
+        <hr> 
+        
+        <div class="w3">
+            <h3>Procedure of sudoku solving</h3>
+
+            <p>Lets understand how graph coloring method is useful in solving sudoku. We try to understand this method via solution of 4*4 sudoku. So we have 16 cells and we represent each cell via 1 to 16 digits as shown in below figure.<p>
+
+            <img class="cccccc" src="images/IMG_1_483-removebg-preview.png" alt="">    
+
+            <p>Let we take 4 different color like red, green, blue and yellow in our 4x4 sudoku, So we can put any number from 1 to 4 in each cell. So we can distribute each color to 1 to 4 digit. First let we assign red color to digit 1,assign green color to digit 2,assign blue color to digit 3 and assign yellow color to digit 4.</p>
+            
+        </div>
+        <hr>
+
+        <div class="w4">
+            <h3>Rules for to generate edges</h3>
+
+            <p>To generate edges, Start with vertice that represent to first cell.</p>
+
+            <ol>
+                <li>Now connect edges between this selected vertice and its all row's vertices and its all column's vertices and its all 2*2 subbox's vertices.</li>
+
+                <li>If selected cell is filled with any digit and if any other cell that connected via edges with that vertice has same colour as selected vertice then solution of this sudoku is not possible, but there is no same colour with connected vertices via edges then selected vertice is safe. Then move to the next filled cell and start from the first statement. If all filled vertices are safe then move to the first empty cell and start with third statement.</li>
+
+                <li>If selected cell is empty then connect edges like mentioned in first state- ment. Now assign colour to that selected vertice using graph coloring method. If non of the colour is selected for that vertice then move to the previous empty cell and change the colour of that previous vertice and check the condition men- tioned in third statement. (This process works recursively).</li>
+            </ol>
+
+            <p>All edges shown in below diagram.</p>
+
+            <img class="cccccc" src="images/IMG_2_484-removebg-preview.png" alt="">
+
+        </div>
+        <hr>
+
+
+        <div class="w6">
+
+            <h3> This is a example for your more understanding :</h3>
+            <p>Let's solve below 4*4 Sudoku using graph colouring method.</p>
+            <img class="qqqq" src="images/IMG_last1.png" alt="">
+            <p> Applying above rules and we get below diagram.</p>
+            <img class="cccccc" src="images/IMG_last2.png" alt="">
+            <p>Solution of this 4*4 Sudoku is:</p>
+            <img class="qqqq" src="images/IMG_last3.png" alt="">
+        </div>
+        <hr>
+
+        <div class="w5">
+            <h3>Algorithm</h3>
+
+            <ol>
+                <li>Create a recursive function that takes current vertex index,number of vertices and output color array as arguments.</li>
+
+                <li>If the current vertex index is equal to number of vertices then return true and print the colour configuration in the output array.</li>
+
+                <li>Assign colour on a vertex (1 to m).</li>
+
+                <li>For every assigned color, check if the configuration is right not break rules, (i.e. check the adjacent vertices do not have the same colour)then recursively call the function with next index and number of vertices.</li>
+
+                <li>If any recursive function returns true break the loop and return true.</li>
+
+                <li>If no recursive function returns true, then return false.</li>
+            </ol>
+        </div>
+    </div>
+
+
+    <div class="Abou_us">
+        
+    </div>
+</body>
+</html>
+
+
+
