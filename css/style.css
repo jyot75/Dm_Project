@@ -28,14 +28,14 @@ h1{
     font-family: 'Montserrat', sans-serif;
 }
 
-.t1 td{
+td{
     padding: 0px 30px;
 }
 
-.t1 a{
+.llinks{
     text-decoration: none;
 }
-.t1 a:hover{
+.llinks:hover{
     background: #FFE8DF ;
     color: black;
     text-decoration: underline;
@@ -64,7 +64,7 @@ h1{
     float: left;
     margin-right: 250px;
 }
-.qSu input{
+#opp1,#opp2,#opp3,#opp4,#opp5,#opp6,#opp7,#opp8,#opp9,#opp10,#opp11,#opp12,#opp13,#opp14,#opp15,#opp16,#opp17,#opp18,#opp19,#opp20,#opp21,#opp22,#opp23,#opp24,#opp25,#opp26,#opp27,#opp28,#opp29,#opp30,#opp31,#opp32,#opp33,#opp34,#opp35,#opp36,#opp37,#opp38,#opp39,#opp40,#opp41,#opp42,#opp43,#opp44,#opp45,#opp46,#opp47,#opp48,#opp49,#opp50,#opp51,#opp52,#opp53,#opp54,#opp55,#opp56,#opp57,#opp58,#opp59,#opp60,#opp61,#opp62,#opp63,#opp64,#opp65,#opp66,#opp67,#opp68,#opp69,#opp70,#opp71,#opp72,#opp73,#opp74,#opp75,#opp76,#opp77,#opp78,#opp79,#opp80,#opp81{
     padding: 5px;
     font-size: 30px;
     text-align: right;
