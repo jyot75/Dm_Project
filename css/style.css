@@ -135,13 +135,20 @@ h1{
     padding: 50px;
 }
 
-h2{
+.How_it h2{
     text-align: center;
-    margin: 25px 0 100px 0;
+    margin: 25px 0 0 0;
     font-family: 'Merriweather', serif;
     font-size: 29px;
 }
 
+.l-h2{
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+    font-family: 'Merriweather', serif;
+    font-size: 29px;
+}
 hr{
     border-style: dotted none none none;         
     border-width: 6px;
@@ -202,3 +209,44 @@ li{
 .Abou_us{
     background-color: #D3E0DC;
 }
+
+.bottom-container{
+    text-align: center;
+    background-color: #D3E0DC;
+    /* margin-top: 100px; */
+    padding: 50px;
+}
+
+/* .footer-link {
+    margin: 0 20px;
+    font-family: sans-serif;
+    color: #11999e;
+    text-decoration: none;
+} */
+
+.btn1{
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn1:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
