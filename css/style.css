@@ -44,6 +44,7 @@ h1{
 .SudokuSolve{
     margin: 50px 50px 75px;
     padding-top: 50px;
+    text-align: center;
 }
 
 .horiz{
@@ -60,10 +61,8 @@ h1{
     top: 178px;
     z-index: 0;
 }
-.qSu{
-    float: left;
-    margin-right: 250px;
-}
+
+
 .qSu input{
     padding: 5px;
     font-size: 30px;
@@ -87,7 +86,7 @@ h1{
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     margin: 50px 0;
-    margin-left: 17%;
+    margin-left: auto;
   }
   
   .btn:hover {
@@ -100,7 +99,7 @@ h1{
     text-decoration: none;
 }
 
-.answer_board{
+/* .answer_board{
     display: inline-block;
 }
 
@@ -122,7 +121,7 @@ h1{
     position: absolute;
     top: 178px;
     z-index: 0;
-}
+} */
 
 .a_horiz{
     border-top: 4px solid black;
@@ -189,9 +188,10 @@ li{
 }
 
 .vaahiyat{
-    position: absolute;
+    display: inline-block;
+    /* position: absolute;
     bottom: 120px;
-    left: 850px; 
+    left: 850px; */
 }
 
 
