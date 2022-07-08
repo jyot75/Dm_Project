@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sudoku-King</title>
+    <title>Sudoku-Solver</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="images/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
 <body>
 
     <div class="n_bar">
-        <h1>Sudoku-King</h1>
+        <h1>Sudoku Solver using graph colouring method</h1>
 
         <table class="t1">
             <tr>
@@ -33,18 +33,23 @@
     <a id="lllll1"></a>
 
     <div class="SudokuSolve">
+
+
         <div class="qSu">
-            <div class="horiz"></div>
-            <div class="vert"></div>
+            <!-- <div class="horiz"></div>
+            <div class="vert"></div> -->
             <input id="1" type="number" maxlength="1" max="9" min="1">
             <input id="2" type="number" maxlength="1" max="9" min="1">
-            <input id="3" type="number" maxlength="1" max="9" min="1"><div class="vert"></div>
+            <input id="3" type="number" maxlength="1" max="9" min="1">
+            <!-- <div class="vert"></div> -->
             <input id="4" type="number" maxlength="1" max="9" min="1">
             <input id="5" type="number" maxlength="1" max="9" min="1">
-            <input id="6" type="number" maxlength="1" max="9" min="1"><div class="vert"></div>
+            <input id="6" type="number" maxlength="1" max="9" min="1">
+             <!-- <div class="vert"></div> -->
             <input id="7" type="number" maxlength="1" max="9" min="1">
             <input id="8" type="number" maxlength="1" max="9" min="1">
-            <input id="9" type="number" maxlength="1" max="9" min="1"><div class="vert"></div>
+            <input id="9" type="number" maxlength="1" max="9" min="1">
+            <!-- <div class="vert"></div> -->
             <br>
             <input id="10" type="number" maxlength="1" max="9" min="1">
             <input id="11" type="number" maxlength="1" max="9" min="1">
@@ -66,7 +71,7 @@
             <input id="26" type="number" maxlength="1" max="9" min="1">
             <input id="27" type="number" maxlength="1" max="9" min="1">
             <br>
-            <div class="horiz"></div>
+            <!-- <div class="horiz"></div> -->
             <input id="28" type="number" maxlength="1" max="9" min="1">
             <input id="29" type="number" maxlength="1" max="9" min="1">
             <input id="30" type="number" maxlength="1" max="9" min="1">
@@ -97,7 +102,7 @@
             <input id="53" type="number" maxlength="1" max="9" min="1">
             <input id="54" type="number" maxlength="1" max="9" min="1">
             <br>
-            <div class="horiz"></div>
+            <!-- <div class="horiz"></div> -->
             <input id="55" type="number" maxlength="1" max="9" min="1">
             <input id="56" type="number" maxlength="1" max="9" min="1">
             <input id="57" type="number" maxlength="1" max="9" min="1">
@@ -128,11 +133,11 @@
             <input id="80" type="number" maxlength="1" max="9" min="1">
             <input id="81" type="number" maxlength="1" max="9" min="1">
             <br>
-            <div class="horiz"></div>
+            <!-- <div class="horiz"></div> -->
 
-        </div>
+       
 
-            <div class="answer_board">
+            <!-- <div class="answer_board">
                 <div class="a_horiz"></div>
                 <div class="a_vert"></div>
                 <div class="ans_div"></div>
@@ -217,21 +222,25 @@
                 <div class="ans_div"></div>
                 <div class="ans_div"></div><br>
                 <div class="a_horiz"></div>
-            </div>
+            </div> -->
 
+            
             <button onclick="initiate()" class="btn">Solve</button>
+        </div>
 
-                <div class="vaahiyat">
-                <p id="row 1"></p>
-                <p id="row 2"></p>      
-                <p id="row 3"></p>
-                <p id="row 4"></p>  
-                <p id="row 5"></p>
-                <p id="row 6"></p>  
-                <p id="row 7"></p>
-                <p id="row 8"></p>  
-                <p id="row 9"></p>       
-                </div>
+        <div class="vaahiyat">
+            <p id="row 1"></p>
+            <p id="row 2"></p>      
+            <p id="row 3"></p>
+            <p id="row 4"></p>  
+            <p id="row 5"></p>
+            <p id="row 6"></p>  
+            <p id="row 7"></p>
+            <p id="row 8"></p>  
+            <p id="row 9"></p>       
+        </div>         
+
+                
 
         <script>
             const placeHolder = "  ";
@@ -343,5 +352,4 @@
     </div>
 </body>
 </html>
-
 
