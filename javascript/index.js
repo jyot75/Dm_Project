@@ -233,7 +233,8 @@ function updateBoard(board) {
     
     if (board == false){
         for (i = 1; i <= 9; i++){
-            document.getElementById("row " + String(i)).innerHTML = "NO SOLUTION EXISTS TO THE GIVEN BOARD"
+            document.getElementById("row " + String(i)).innerHTML = alert("NO SOLUTION EXISTS TO THE GIVEN BOARD")
+            break
         }
     }
     else{
