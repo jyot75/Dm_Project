@@ -42,12 +42,12 @@ h1{
 }
 
 .SudokuSolve{
-    margin: 50px 50px 75px;
+    margin: 50px auto 75px;
     padding-top: 50px;
     text-align: center;
 }
 
-.horiz{
+/* .horiz{
     border-top: 4px solid black;
     width: 536px;
 }
@@ -60,7 +60,7 @@ h1{
     position: absolute;
     top: 178px;
     z-index: 0;
-}
+} */
 
 
 .qSu input{
